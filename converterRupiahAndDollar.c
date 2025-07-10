@@ -3,7 +3,7 @@
 
 void Bio(){
     puts("==========================================");
-    puts("|Nama  : Reza Atha Syandana Besariant    |");
+    puts("|Nama  : Reza Atha Syandana Besarianta   |");
     puts("|No    : 34                              |");
     puts("|Kelas : TKJ 12                          |");
     puts("==========================================");
