@@ -13,7 +13,7 @@ void Bio(){
 int main(){
 
     float rupiah, dollar;
-    float kurs = 16000.0;
+    float exchangeRate = 16000.0; //replace with current exchange rate
     int choice;
     Bio();
 
@@ -35,13 +35,13 @@ int main(){
                     puts(" How much do you want to covert to Dollar? ");
                     printf(">>");
                     scanf("%f", &rupiah);
-                    printf("Rp.%.2f = $%.2f", rupiah, rupiah / kurs);
+                    printf("Rp.%.2f = $%.2f", rupiah, rupiah / exchangeRate);
                     break;
                 case 2:
                     puts(" How much do you want to covert to Rupiah?");
                     printf(">>");
                     scanf("%f", &dollar);
-                    printf("$%.2f = Rp.%.2f", dollar, dollar * kurs);
+                    printf("$%.2f = Rp.%.2f", dollar, dollar * exchangeRate);
                     break;
                 default:
                     puts("\nenter the right choice!!");
